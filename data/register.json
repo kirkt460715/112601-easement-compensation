@@ -1,0 +1,58 @@
+{
+  "land": "L-50",
+  "share": [
+    {
+      "subject": "hh-1",
+      "fraction": "1/2",
+      "verified": true
+    },
+    {
+      "subject": "hh-2",
+      "fraction": "1/2",
+      "verified": false
+    }
+  ],
+  "agreements": [
+    {
+      "id": "aid-A",
+      "restriction": "no_clearcut",
+      "span": [
+        1,
+        30
+      ],
+      "stack": "shared",
+      "fund": "A"
+    },
+    {
+      "id": "aid-B",
+      "restriction": "no_clearcut",
+      "span": [
+        12,
+        30
+      ],
+      "stack": "shared",
+      "fund": "B"
+    },
+    {
+      "id": "aid-C",
+      "restriction": "retain_buffer",
+      "span": [
+        4,
+        28
+      ],
+      "stack": "independent",
+      "fund": "C"
+    }
+  ],
+  "funds": {
+    "A": 23000,
+    "B": 16000,
+    "C": 9800
+  },
+  "allocation": {
+    "A_B": [
+      3,
+      2
+    ]
+  }
+}

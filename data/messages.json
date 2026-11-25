@@ -1,0 +1,44 @@
+[
+  {
+    "sequence": 1,
+    "received_at": 22,
+    "source": "treasury",
+    "facts": {
+      "id": "out-4",
+      "to": "hh-1",
+      "cents": 9100,
+      "submitted": true
+    }
+  },
+  {
+    "sequence": 2,
+    "received_at": 26,
+    "source": "register",
+    "facts": {
+      "subject": "hh-3",
+      "fraction": "1/2",
+      "replaces": "hh-2",
+      "valid_from": 6
+    }
+  },
+  {
+    "sequence": 3,
+    "received_at": 28,
+    "source": "budget",
+    "facts": {
+      "fund": "B",
+      "state": "held"
+    }
+  },
+  {
+    "sequence": 4,
+    "received_at": 34,
+    "source": "register",
+    "facts": {
+      "subject": "hh-4",
+      "fraction": "1/2",
+      "replaces": "hh-1",
+      "valid_from": 15
+    }
+  }
+]

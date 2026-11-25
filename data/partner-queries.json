@@ -1,0 +1,22 @@
+[
+  {
+    "action": "read-transfer",
+    "desk": "treasury",
+    "fact": {
+      "transfer": "out-4",
+      "state": "paid",
+      "cents": 9100
+    },
+    "unavailable_first": true
+  },
+  {
+    "action": "read-reserve",
+    "desk": "escrow",
+    "fact": {
+      "land": "L-50",
+      "cents": 7600,
+      "state": "held"
+    },
+    "unavailable_first": false
+  }
+]
