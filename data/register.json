@@ -54,5 +54,23 @@
       3,
       2
     ]
-  }
+  },
+  "interim_funding": {
+    "A": {
+      "can_pay_own_undisputed_share": true,
+      "can_advance_for_B": false
+    }
+  },
+  "claims": [
+    {
+      "id": "claim-18",
+      "land": "L-50",
+      "restriction": "no_clearcut",
+      "period": [
+        12,
+        30
+      ],
+      "gross_cents": 18000
+    }
+  ]
 }
